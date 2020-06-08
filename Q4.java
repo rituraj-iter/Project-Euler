@@ -34,4 +34,4 @@ public class Q4{
 		System.out.println(pali());
 	}
 }
-//906609
+//Output906609
