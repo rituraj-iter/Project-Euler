@@ -5,10 +5,11 @@ public static double prime(double a) {
 	double n;
 	double q=a;
 	double b=0;
-	for(n=2;n<=Math.sqrt(q);n++){
+	for(n=1;n<=Math.sqrt(q);n+=2){
 		while(a%n==0) {
 			b=n;
 			a=a/n;
+			break;
 		}
 	}
 	return b;
