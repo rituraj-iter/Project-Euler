@@ -7,11 +7,11 @@ public class Q9 {
 public static void main(String[] args) {
         int a,b,c;
         int res=0;
-        for (a=1;a<498;a++){
-        	for (b=1;b<498;b++) {
-        		for (c=1;c<498;c++){
+       for (a=1;a<498;a++){
+        	for (b=2;b<497;b++) {
+        		for (c=3;c<496;c++){
         			if (a+b+c==1000){
-        				if(Math.pow(a,2)+Math.pow(b,2)==Math.pow(c,2)){
+        				if((a*a)+(b*b)==(c*c)){
         					res=a*b*c;
         					}
         				}
