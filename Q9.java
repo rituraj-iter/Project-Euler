@@ -9,15 +9,12 @@ public static void main(String[] args) {
         int res=0;
        for (a=1;a<498;a++){
         	for (b=2;b<497;b++) {
-        		for (c=3;c<496;c++){
-        			if (a+b+c==1000){
+        		c=1000-a-b;
         				if((a*a)+(b*b)==(c*c)){
         					res=a*b*c;
         					}
         				}
         			}
-        		}
-        	}
         System.out.println(res);
         }
 }
