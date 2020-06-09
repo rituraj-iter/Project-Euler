@@ -4,7 +4,7 @@ public class Q4{
 	public static int pali(){
 		int pro=0;
 		for (int i=999;i>900;i--) {
-			for (int j=999;j>900;j--) {
+			for (int j=i;j>900;j--) {
 				pro=i*j;
 				if(check(pro)) {
 					return pro;
