@@ -2,7 +2,7 @@
 Find the sum of all the primes below two million.*/
 public class Q10 {
 	public static boolean checkprime(int n) {
-		for(int i=2;i<=Math.sqrt(n);i++) {
+		for(int i=3;i<=Math.sqrt(n);i+=2) {
 			if(n%i==0)
 				return false;
 		}
@@ -10,7 +10,7 @@ public class Q10 {
 	}
 	 public static void main(String args[]) {
 		 long s=2;
-	        for (int i=3;i<2000000;i++) {
+	        for (int i=3;i<2000000;i+=2) {
 	            if (checkprime(i)) {
 	                s+=i;
 	                }
