@@ -11,13 +11,15 @@ public class Q7 {
 	public static void main(String args[]) {
 		int n=2;
 		int prime=3;
+		int pnext=3;
 		while(n<=10001) {
 			if(checkprime(prime)) {
 				n++;
 			}
+			pnext=prime;
 			prime+=2;
 		}
-		System.out.println(prime-2);
+		System.out.println(pnext);
 	}
 }
 //Output104743
