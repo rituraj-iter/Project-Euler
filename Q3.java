@@ -6,7 +6,7 @@ public class Q3 {
 		long a=600851475143l;
 		long q=a;
 		long b=0;
-		for(n=1;n<=Math.sqrt(q);n+=2){
+		for(n=3;n<=Math.sqrt(q);n+=2){
 			while(a%n==0) {
 				b=n;
 				a=a/n;
