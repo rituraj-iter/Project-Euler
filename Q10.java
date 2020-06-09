@@ -14,10 +14,7 @@ public class Q10 {
 	            if (checkprime(i)) {
 	                s+=i;
 	                }
-	            else {
-	            	s+=0;
-	            }
-	        }
+	         }
 		 System.out.println(s);
 	 }
 }
